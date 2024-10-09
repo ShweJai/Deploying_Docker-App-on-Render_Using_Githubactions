@@ -4,7 +4,8 @@ name: Build and Deploy to Docker Hub
 on:
   push:
     branches:
-      - main  # Trigger deployment on push to the main branch
+      - master 
+      - raghul # Trigger deployment on push to the main branch
 
 jobs:
   build:
