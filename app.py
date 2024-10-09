@@ -7,7 +7,7 @@ profile_pic = Image.open("profile-pic.jpg")  # Replace with your profile picture
 # Introduction
 st.title("Swetha Maran. - Portfolio 😀")
 st.image(profile_pic, width=150)  # Display profile picture
-st.subheader("Software Quality Engineer | Python Developer | DevOps Enthusiast | Founder of CareerPod")
+st.subheader("DevOps Engineer | Python Developer | DevOps Enthusiast | Founder of CareerPod")
 st.write("""
 Welcome to my portfolio! I'm passionate about technology, AI/ML, Cloud, and helping others grow in their careers.
 """)
