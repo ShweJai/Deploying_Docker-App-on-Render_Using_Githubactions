@@ -25,8 +25,8 @@ jobs:
     - name: Build Docker image
       run: docker buildx build -t ${{ secrets.DOCKER_USER }}/streamlit-portfolio:v1
 
-    - name: Push Docker image
-      run: docker push ${{ secrets.DOCKER_USER }}/swethaportfolio:v2
+    - name: Build Docker image
+      run: docker buildx build -t ${{ secrets.DOCKER_USER }}/streamlit-portfolio:v1
 
   deploy: 
      runs-on: ubuntu-latest
