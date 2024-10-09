@@ -23,7 +23,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker buildx build -t ${{ secrets.DOCKER_USER }}/swethaportfolio:v2 --push .
+      run: docker buildx build --platform linux/amd64 -t ${{ secrets.DOCKER_USER }}/swethaportfolio:v2 --push .
 
   deploy: 
      runs-on: ubuntu-latest
