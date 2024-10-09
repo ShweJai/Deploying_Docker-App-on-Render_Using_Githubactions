@@ -24,7 +24,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t ${{ secrets.DOCKER_USER }}/streamlit-portfolio:v1 . #checking1
+      run: docker build -t ${{ secrets.DOCKER_USER }}/streamlit-portfolio:v1 . #checking12
 
     - name: Push Docker image
       run: docker push ${{ secrets.DOCKER_USER }}/streamlit-portfolio:v1
