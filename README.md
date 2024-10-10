@@ -72,5 +72,5 @@ docker push <username>/streamlit-portfolio:v1
 
 The Docker image can be deployed to various platforms, such as Render, AWS, or any other cloud provider that supports Docker containers.
 
-![Screenshot from 2024-08-20 23-23-32](https://github.com/user-attachments/assets/34d3105a-3ffa-49f2-9915-ba2bf985f606)
+![Screenshot from 2024-08-20 23-23-32](https://swethaportfolio-v2-hyax.onrender.com/)
 
